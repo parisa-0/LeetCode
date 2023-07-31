@@ -3,7 +3,7 @@ package SolvedLeetCode;
 import java.util.*;
 //https://leetcode.com/problems/most-frequent-even-element/
 
-class frequentEvenNumber {
+class FrequentEvenNumber {
     public int mostFrequentEven(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
 
