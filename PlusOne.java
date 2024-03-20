@@ -7,11 +7,6 @@ class Solution {
                digits[i]++;
                 return digits;
             }
-           else if(digits.length - 2 > 0 && digits[digits.length - 2] < 9 && digits[digits.length - 1] == 9){
-                digits[digits.length - 1] = 0;
-                digits[digits.length - 2]++;
-                return digits;
-            }
            else if(digits[i] == 9) {  
                digits[i] = 0;
           } 
