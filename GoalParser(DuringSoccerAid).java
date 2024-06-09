@@ -12,9 +12,6 @@ class Solution {
             else if(command.charAt(i) == '(' && command.charAt(i + 1) == 'a') {
                 result += "al";
             }
-             else {
-
-             }
         }
         return result;
     }
